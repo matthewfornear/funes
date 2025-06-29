@@ -1,0 +1,8 @@
+# Ignore the entire data directory
+/data/
+
+# Ignore everything inside the settings directory
+/settings/*
+
+# But do not ignore the settings directory itself (so the folder exists)
+!settings/ 
